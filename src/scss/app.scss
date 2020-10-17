@@ -1,0 +1,35 @@
+@import "settings/variable"; //themes' colors
+
+//base...
+@import "generic/normalize.scss";
+@import "generic/box-sizing.scss";
+@import "./base/scaffolding"; // styles of base elements
+@import "./base/typography"; // base styles of h1-h6, p, span
+
+//components...
+@import "component/btn";
+@import "./component/card";
+@import "./component/check-box";
+@import "./component/sidebar";
+@import "./component/topbar";
+@import "./component/load";
+@import "./component/form";
+@import "./component/tabs"; // Nav, NavItem, NavLink, TabContent, TabPane from 'reactstrap'
+@import "./component/form"; // <form> and all types of inputs
+@import "./component/input.scss";
+@import "./component/list";
+@import "./component/material-form"; // for 'material-ui'
+@import "./component/material-table"; // pages/tables/material_table/*
+@import "./component/notification"; // components/Notification.js ('reactstrap')
+@import "./component/pagination"; // components/Pagination.js ('reactstrap')
+@import "./component/panel"; // components/Panel.js
+@import "./component/popover"; // Popover from 'reactstrap'
+@import "./component/react-select";
+@import "./component/scroll";
+@import "./component/search-result"; // components/SearchResult.js
+@import "./component/select-options";
+//pages...
+@import "containers/account";
+
+//objects...
+@import "objects/layout.scss";
